@@ -1,2 +1,24 @@
-# esp32-companion-v1
-INNNX. | ESP32 companion robot V1: existing SSD1306 OLED face module only.
+# ESP32 陪伴机器人 V1
+
+**INNNX. · Robots & IoT**
+
+这是陪伴机器人项目当前可公开的 OLED 表情显示模块。本仓库只包含实际找到并审查的代码，不代表完整机器人已经完成。
+
+## 已有代码
+
+`firmware/oled-face/oled-face.ino` 初始化 I²C SSD1306 OLED，绘制双眼和嘴巴，并通过串口报告初始化状态。`loop()` 当前为空，没有对话、联网、语音或自主行为实现。
+
+## 硬件与依赖
+
+- ESP32 系列开发板（具体型号与接线需按实物确认）。
+- SSD1306 OLED，128 × 64，代码使用地址 `0x3C`。
+- Arduino 环境、Wire、Adafruit GFX、Adafruit SSD1306。
+- 当前代码使用 SDA GPIO 0、SCL GPIO 1；使用前请确认这些引脚适合你的板型。
+
+## 使用
+
+安装相应 ESP32 板卡支持和显示库，用 Arduino IDE 打开上述草图，按实际板型检查接线和引脚后编译上传。串口波特率为 115200。本次没有连接实物、重新编译或验证硬件行为。
+
+## 公开范围
+
+仅这份 OLED 草图和说明。没有包含 Wi-Fi 凭据、API 密钥、个人数据或尚未核实的其他模块；不宣称整个 V1 已完工。
