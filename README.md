@@ -1,24 +1,23 @@
-# ESP32 陪伴机器人 V1
+# ESP32 陪伴机器人 V1 · Companion Robot · Robot de compañía
 
 **INNNX. · Robots & IoT**
 
-这是陪伴机器人项目当前可公开的 OLED 表情显示模块。本仓库只包含实际找到并审查的代码，不代表完整机器人已经完成。
+[简体中文](docs/README.zh-CN.md) | [Español](docs/README.es.md) | [English](docs/README.en.md)
 
-## 已有代码
+ESP32 陪伴机器人原型，当前公开 OLED 表情显示代码；硬件验证未确认。
 
-`firmware/oled-face/oled-face.ino` 初始化 I²C SSD1306 OLED，绘制双眼和嘴巴，并通过串口报告初始化状态。`loop()` 当前为空，没有对话、联网、语音或自主行为实现。
+Prototipo de robot de compañía ESP32: código de expresión facial OLED publicado; validación física no confirmada.
 
-## 硬件与依赖
+ESP32 companion robot prototype: OLED facial-display code published; hardware validation not confirmed.
 
-- ESP32 系列开发板（具体型号与接线需按实物确认）。
-- SSD1306 OLED，128 × 64，代码使用地址 `0x3C`。
-- Arduino 环境、Wire、Adafruit GFX、Adafruit SSD1306。
-- 当前代码使用 SDA GPIO 0、SCL GPIO 1；使用前请确认这些引脚适合你的板型。
+| Version | Direction | Status |
+| --- | --- | --- |
+| V1 | Inspired Prototype | In Development |
+| V2 | Independent Design | Planned |
+| V3 | Future Independent Development | Planned |
 
-## 使用
+V1 灵感来源 / Inspiración / Inspiration: [小红书原作者 · Creador original en Xiaohongshu · Original Xiaohongshu creator](https://xhslink.cn/m/5y0F9KIVkvd)。详细致谢、技术信息和未来版本说明见三语言文档。
 
-安装相应 ESP32 板卡支持和显示库，用 Arduino IDE 打开上述草图，按实际板型检查接线和引脚后编译上传。串口波特率为 115200。本次没有连接实物、重新编译或验证硬件行为。
+[`firmware/oled-face/oled-face.ino`](firmware/oled-face/oled-face.ino)
 
-## 公开范围
-
-仅这份 OLED 草图和说明。没有包含 Wi-Fi 凭据、API 密钥、个人数据或尚未核实的其他模块；不宣称整个 V1 已完工。
+[Robots & IoT](https://github.com/Lq922466/Lq922466/blob/main/portfolio/robots-iot.md) · [INNNX.](https://github.com/Lq922466)
