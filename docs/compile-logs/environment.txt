@@ -1,0 +1,10 @@
+ID          Installed Latest Name
+esp32:esp32 3.3.12    3.3.12 esp32
+
+
+Name                 Installed Available   Location Description
+Adafruit BusIO       1.17.4    -           user     -
+Adafruit GFX Library 1.12.6    -           user     -
+Adafruit SSD1306     2.5.17    -           user     -
+ESP32Servo           3.2.1     -           user     -
+

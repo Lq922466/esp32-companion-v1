@@ -1,23 +1,34 @@
-# ESP32 陪伴机器人 V1 · Companion Robot · Robot de compañía
+# PaperRobot V2
+ESP32-C3 cardboard companion robot by INNNX. Inspired by **Made by Z**; this V2 remains an adaptation, not a claim of fully independent design.
 
-**INNNX. · Robots & IoT**
+[中文](README.zh-CN.md) | [Español](README.es.md)
 
-[简体中文](docs/README.zh-CN.md) | [Español](docs/README.es.md) | [English](docs/README.en.md)
+## What the recovered firmware implements
+Six face designs (normal, happy, blink, curious, shy, sleeping), filled capsule eyes, smooth expression transitions and blinking. Left/right IR inputs translate the **entire face**, including eyes and mouth, and command yaw. Both IR inputs active means centered. Touch triggers a happy expression and one pitch nod. Head movement is limited and rate controlled; OLED initialization retries after failure.
 
-ESP32 陪伴机器人原型，当前公开 OLED 表情显示代码；硬件验证未确认。
+These are source-code findings. Compilation results are in [TESTING](docs/TESTING.md); physical operation has not been verified during this packaging task. The owner reports the build is completed; no photo/video test evidence is included yet.
 
-Prototipo de robot de compañía ESP32: código de expresión facial OLED publicado; validación física no confirmada.
+## Hardware and getting started
+ESP32-C3 SuperMini; SSD1306 128×64 I2C 0x3C (SDA 0/SCL 1); two SG90 servos (yaw 4/pitch 5); IR left 6/right 7; TTP223 touch 10. External UBEC provides 5V for servos, with common ground. **12V adapter connects only to UBEC input.** Keep the existing large breadboard.
 
-ESP32 companion robot prototype: OLED facial-display code published; hardware validation not confirmed.
+The shell uses **3mm corrugated cardboard, measured and cut manually against the actual parts**. No cutting PDF template was used or is distributed. Dimensions must be measured on the actual build.
 
-| Version | Direction | Status |
-| --- | --- | --- |
-| V1 | Inspired Prototype | In Development |
-| V2 | Independent Design | Planned |
-| V3 | Future Independent Development | Planned |
+1. Read [SAFETY](docs/SAFETY.md) and [WIRING](docs/WIRING.md).
+2. Run [independent component tests](docs/COMPONENT-TESTS.md), with servo horns removed initially.
+3. Follow [ASSEMBLY](docs/ASSEMBLY.md), then upload [complete V2 source](firmware/PaperRobotV2/PaperRobotV2.ino) using [FIRMWARE](docs/FIRMWARE.md).
+4. Record actual results using [TESTING](docs/TESTING.md).
 
-V1 灵感来源 / Inspiración / Inspiration: [小红书原作者 · Creador original en Xiaohongshu · Original Xiaohongshu creator](https://xhslink.cn/m/5y0F9KIVkvd)。详细致谢、技术信息和未来版本说明见三语言文档。
+## Project documentation
+[BOM](docs/BOM.md) · [WIRING](docs/WIRING.md) · [ASSEMBLY](docs/ASSEMBLY.md) · [COMPONENT-TESTS](docs/COMPONENT-TESTS.md) · [FIRMWARE](docs/FIRMWARE.md) · [TROUBLESHOOTING](docs/TROUBLESHOOTING.md) · [SAFETY](docs/SAFETY.md) · [TESTING](docs/TESTING.md) · [Credits and differences](docs/ATTRIBUTION.md) · [History](CHANGELOG.md) · [License review](LICENSE-REVIEW.md)
 
-[`firmware/oled-face/oled-face.ino`](firmware/oled-face/oled-face.ino)
+## Real build media — awaiting owner
+- Finished robot photo: **pending real image/link**.
+- Demonstration video: **pending real video/link** (idle expressions, left/right/both sensing, touch nod).
+- Assembly photos and dimensions: **pending owner evidence**.
 
-[Robots & IoT](https://github.com/Lq922466/Lq922466/blob/main/portfolio/robots-iot.md) · [INNNX.](https://github.com/Lq922466)
+No synthetic photographs, invented videos or claimed physical test passes are included.
+
+## Preserved source
+V2 is copied byte-for-byte from the latest recovered delivery. V1 is preserved under firmware/archive. All recovered project sketches and source hashes are retained in archive; earlier public OLED code and documentation remain in archive/prior-public-repository. Newly authored diagnostic sketches are explicitly identified in COMPONENT-TESTS. See [source inventory](archive/SOURCE-MANIFEST.json).
+
+No blanket open-source license has been assigned until source ownership and upstream permissions are confirmed.

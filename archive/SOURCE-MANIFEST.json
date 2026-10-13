@@ -1,0 +1,112 @@
+[
+  {
+    "source": "2026-10-04/referenced-chatgpt-conversation-this-is-an/work/scanner-original.ino",
+    "archived": "archive/recovered/2026-10-04/referenced-chatgpt-conversation-this-is-an/work/scanner-original.ino",
+    "sha256": "7fab7bab2849a9edfbb30ef1384ba926b2a2549ee134af3b9c95eb6974f31d94"
+  },
+  {
+    "source": "2026-10-04/referenced-chatgpt-conversation-this-is-an/outputs/OLED_I2C_Scanner/OLED_I2C_Scanner.ino",
+    "archived": "archive/recovered/2026-10-04/referenced-chatgpt-conversation-this-is-an/outputs/OLED_I2C_Scanner/OLED_I2C_Scanner.ino",
+    "sha256": "22ab64cc69201c12791c06971cde6165c578fddd6a0f3177650e58af2aa02a34"
+  },
+  {
+    "source": "2026-10-12/referenced-chatgpt-conversation-this-is-an-2/outputs/PaperRobotV1/PaperRobotV1.ino",
+    "archived": "archive/recovered/2026-10-12/referenced-chatgpt-conversation-this-is-an-2/outputs/PaperRobotV1/PaperRobotV1.ino",
+    "sha256": "dce13229f5f5ce58d478b506d070f848c516b5dad1e0e1b4b7f143a68a1a1722"
+  },
+  {
+    "source": "2026-10-12/referenced-chatgpt-conversation-this-is-an-3/work/PaperRobotV1.original.ino",
+    "archived": "archive/recovered/2026-10-12/referenced-chatgpt-conversation-this-is-an-3/work/PaperRobotV1.original.ino",
+    "sha256": "e4fc821b9e671a3e73771cba4e398eaa60a6103dee4763c8c9e669a7c85b6fca"
+  },
+  {
+    "source": "2026-10-12/referenced-chatgpt-conversation-this-is-an-3/outputs/PaperRobotV1/PaperRobotV1.ino",
+    "archived": "archive/recovered/2026-10-12/referenced-chatgpt-conversation-this-is-an-3/outputs/PaperRobotV1/PaperRobotV1.ino",
+    "sha256": "57a4d9df3a0edf126e0a2f52362ebdcdbd98fd1127e92ec4bb1a0583ac03e699"
+  },
+  {
+    "source": "2026-10-12/referenced-chatgpt-conversation-this-is-an-4/work/PaperRobotV1.before.ino",
+    "archived": "archive/recovered/2026-10-12/referenced-chatgpt-conversation-this-is-an-4/work/PaperRobotV1.before.ino",
+    "sha256": "dce13229f5f5ce58d478b506d070f848c516b5dad1e0e1b4b7f143a68a1a1722"
+  },
+  {
+    "source": "2026-10-12/referenced-chatgpt-conversation-this-is-an-4/outputs/PaperRobotV1/PaperRobotV1.ino",
+    "archived": "archive/recovered/2026-10-12/referenced-chatgpt-conversation-this-is-an-4/outputs/PaperRobotV1/PaperRobotV1.ino",
+    "sha256": "57a4d9df3a0edf126e0a2f52362ebdcdbd98fd1127e92ec4bb1a0583ac03e699"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV1_backup/PaperRobotV1.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV1_backup/PaperRobotV1.ino",
+    "sha256": "57a4d9df3a0edf126e0a2f52362ebdcdbd98fd1127e92ec4bb1a0583ac03e699"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "82c1d492f0411b0f5a9cbb3405c8f60880d1cbd12e9b5d94afc23107f1f26a7c"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV2_完整交付/PaperRobotV1_backup/PaperRobotV1.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV2_完整交付/PaperRobotV1_backup/PaperRobotV1.ino",
+    "sha256": "57a4d9df3a0edf126e0a2f52362ebdcdbd98fd1127e92ec4bb1a0583ac03e699"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV2_完整交付/PaperRobotV2/PaperRobotV2.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/PaperRobotV2_完整交付/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "063f5195ef99e3430828b31c595f85021fc21cb1954e935483d79073944f3cbc"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/备份_修复前/PaperRobotV2/PaperRobotV2.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an/outputs/备份_修复前/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "063f5195ef99e3430828b31c595f85021fc21cb1954e935483d79073944f3cbc"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-3/work/PaperRobotV2.before-reference.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-3/work/PaperRobotV2.before-reference.ino",
+    "sha256": "f192e44012d47995b0175c94e77503520413756483471ace125de14d120b1d1e"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-3/work/PaperRobotV2.before.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-3/work/PaperRobotV2.before.ino",
+    "sha256": "82c1d492f0411b0f5a9cbb3405c8f60880d1cbd12e9b5d94afc23107f1f26a7c"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-3/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-3/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "9a671ea44190dac16547e68764ba952840ab1f35b29e78117204a05f682020b2"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-4/work/PaperRobotV2.before-servo-range.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-4/work/PaperRobotV2.before-servo-range.ino",
+    "sha256": "f95854ab6551c3beb8494961c1674d4b094c2d2fffccea68b301bfedeab2e7a0"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-4/work/PaperRobotV2.before.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-4/work/PaperRobotV2.before.ino",
+    "sha256": "80e1b466b6b2386c919a2a1c1172625ebec96074d75a9fa98cad99291a75e369"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-4/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-4/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "5df65433bda546449901d075e826daae9a9285a88ddd5b0c11c456f733e63120"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-5/work/PaperRobotV2.an3.before.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-5/work/PaperRobotV2.an3.before.ino",
+    "sha256": "7f4c820990e2c4c7e9f11cd6ff19fd312896bae3c9f3e3c91268b419a21e18cc"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-5/work/PaperRobotV2.before.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-5/work/PaperRobotV2.before.ino",
+    "sha256": "067556caf283a808f1aeb69ae3e5ba2e844eb08b54a4d08d9c0854802bd6d9dc"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-5/work/PaperRobotV2.replaced-backup.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-5/work/PaperRobotV2.replaced-backup.ino",
+    "sha256": "067556caf283a808f1aeb69ae3e5ba2e844eb08b54a4d08d9c0854802bd6d9dc"
+  },
+  {
+    "source": "2026-10-13/referenced-chatgpt-conversation-this-is-an-5/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "archived": "archive/recovered/2026-10-13/referenced-chatgpt-conversation-this-is-an-5/outputs/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "f95854ab6551c3beb8494961c1674d4b094c2d2fffccea68b301bfedeab2e7a0"
+  }
+]

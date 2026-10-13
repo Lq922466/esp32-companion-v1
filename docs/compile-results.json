@@ -1,0 +1,90 @@
+[
+  {
+    "sketch": "tests/ControllerSerial/ControllerSerial.ino",
+    "sha256": "c865977708d07fe6fe907dd1bb39b4d46ea82e589c9871192f967a5ac08ae0d7",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/IR_Left/IR_Left.ino",
+    "sha256": "0f236090f82fb4e8cc0eccba2f8df49fb089927243f1bae4e8d3ba05e4b14118",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/IR_Right/IR_Right.ino",
+    "sha256": "854b7e6a1a1dd48bb92619676fb416bee56007502d745b843db63b476aecefb4",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/OLED_Display/OLED_Display.ino",
+    "sha256": "c633c9bb7370695756039602d1a933885ef2049dbeb9d8dfd6254f8579d234c6",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/OLED_I2C_Scanner/OLED_I2C_Scanner.ino",
+    "sha256": "22ab64cc69201c12791c06971cde6165c578fddd6a0f3177650e58af2aa02a34",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/Servo_Center/Servo_Center.ino",
+    "sha256": "605aaf73d3ad24532804c24349f90c0a74cc2c786695decdafcd79780894e9ed",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/Servo_Pitch/Servo_Pitch.ino",
+    "sha256": "9db9bfc2e339683dcde73ee616e827995d596704807e88882e2cdc07100a22c3",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/Servo_Yaw/Servo_Yaw.ino",
+    "sha256": "11e31d94d6a90ed9490a20069f8ac162ae876d3d4dd8248ea495a53898651dca",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "tests/Touch_TTP223/Touch_TTP223.ino",
+    "sha256": "7963203b86c906f8eff3ceb366d8edc80ea66e138ec2e43b6e8ffc2b5cd2a224",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "firmware/PaperRobotV2/PaperRobotV2.ino",
+    "sha256": "f95854ab6551c3beb8494961c1674d4b094c2d2fffccea68b301bfedeab2e7a0",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  },
+  {
+    "sketch": "firmware/archive/PaperRobotV1/PaperRobotV1.ino",
+    "sha256": "57a4d9df3a0edf126e0a2f52362ebdcdbd98fd1127e92ec4bb1a0583ac03e699",
+    "fqbn": "esp32:esp32:esp32c3:CDCOnBoot=cdc",
+    "exit_code": 0,
+    "status": "PASS",
+    "hardware_test": "NOT PERFORMED"
+  }
+]

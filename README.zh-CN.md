@@ -1,0 +1,26 @@
+# PaperRobot V2 纸板陪伴机器人
+INNNX. 制作，灵感来自 **Made by Z**。V2 仍属于改造项目，不能仅凭版本号宣称完全独立原创。
+
+[English](README.md) | [Español](README.es.md)
+
+## 已在实际源码实现的功能
+六种脸部设计：正常、开心、眨眼、好奇、害羞、睡眠；可爱实心眼睛、平滑表情切换和眨眼。左右红外感应时，眼睛、嘴巴以及脸部装饰整体同步平移，并控制头部 yaw；两侧同时有效则回中。触摸触发开心表情和一次 pitch 点头。舵机有限幅、限速；OLED 失败后会重试。
+
+这是源码核对结果，编译结果见 [TESTING](docs/TESTING.md)。本次整理未进行实物测试；用户表示制作完成，成品照片和演示视频仍待补充。
+
+## 硬件与制作
+ESP32-C3 SuperMini；SSD1306 128×64，0x3C，SDA GPIO0/SCL GPIO1；SG90 两个，Yaw GPIO4/Pitch GPIO5；左右红外 GPIO6/7；TTP223 GPIO10。UBEC 输出 5V 给舵机，所有设备共地。**12V 适配器仅接 UBEC 输入**。保留现有大面包板。
+
+外壳用 **3mm 瓦楞纸板，按实物手工测量裁切**。实际没有使用纸模板，不提供纸板裁切 PDF。尺寸、胶合位置和真实制作照片待用户补充，不编造。
+
+先阅读 [安全](docs/SAFETY.md)、[接线](docs/WIRING.md)，逐项运行 [独立测试程序](docs/COMPONENT-TESTS.md)，再按 [组装步骤](docs/ASSEMBLY.md) 安装，使用 [固件说明](docs/FIRMWARE.md) 上传 [完整 V2 源码](firmware/PaperRobotV2/PaperRobotV2.ino)。首次舵机测试先拆下舵盘。
+
+## 完整资料
+[BOM](docs/BOM.md) · [WIRING](docs/WIRING.md) · [ASSEMBLY](docs/ASSEMBLY.md) · [COMPONENT-TESTS](docs/COMPONENT-TESTS.md) · [FIRMWARE](docs/FIRMWARE.md) · [TROUBLESHOOTING](docs/TROUBLESHOOTING.md) · [SAFETY](docs/SAFETY.md) · [TESTING](docs/TESTING.md) · [致谢与差异](docs/ATTRIBUTION.md) · [版本历史](CHANGELOG.md) · [许可证合规](LICENSE-REVIEW.md)
+
+## 真实素材预留
+- 成品照片：待真实照片链接。
+- 运作视频：待真实链接，建议展示待机、左右及双侧感应、触摸点头。
+- 制作过程照片、实测尺寸、测试记录：待用户补充。
+
+最新 V2 和 V1 备份原样保留；各历史源码及 SHA256 见 archive，旧公开仓库文件也保留。独立诊断程序中新增部分已标注。本次未擅自为全部源码指定开源许可证。
