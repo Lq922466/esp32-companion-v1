@@ -1,4 +1,6 @@
 # Troubleshooting / 故障排查
+
+[中文](zh-CN/TROUBLESHOOTING.md) | [Español](es/TROUBLESHOOTING.md)
 | Symptom | Checks and action |
 |---|---|
 | No upload port | Data-capable USB cable, correct port, board power, close serial programs; inspect BOOT/RESET procedure for this board |

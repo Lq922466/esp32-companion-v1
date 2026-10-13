@@ -1,4 +1,6 @@
 # Independent component tests / 各配件独立测试
+
+[中文](zh-CN/COMPONENT-TESTS.md) | [Español](es/COMPONENT-TESTS.md)
 Each linked file contains the complete Arduino test code. Run one sketch at a time with only the relevant module connected. New diagnostics authored for this package are not claimed to be the owner's historical test code. The recovered OLED_I2C_Scanner is preserved byte-for-byte; other recovered integrated sketches are retained in archive.
 
 All serial output uses 115200 baud. Use the ESP32-C3 target and dependencies in FIRMWARE. Disconnect servos while testing logic. Never connect 12V to a test GPIO.

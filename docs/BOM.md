@@ -1,4 +1,6 @@
 # Bill of materials / 配件清单 / Materiales
+
+[中文](zh-CN/BOM.md) | [Español](es/BOM.md)
 Quantities follow the owner-specified configuration; costs, supplier links and exact sensor/UBEC ratings remain unconfirmed.
 
 | Part | Qty | Purpose / 用途 |

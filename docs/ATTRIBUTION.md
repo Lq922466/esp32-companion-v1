@@ -1,4 +1,6 @@
 # Attribution and verifiable differences
+
+[中文](zh-CN/ATTRIBUTION.md) | [Español](es/ATTRIBUTION.md)
 Thank you to **Made by Z** for the inspiration and shared cardboard-robot building approach. This credit is supplied by the owner. Preserve the original reference already present in the public V1 repository: https://xhslink.cn/m/5y0F9KIVkvd . The link's creator identity, technical contents and reuse permissions have not been independently verified here. Public secondary reporting is not sufficient to establish detailed upstream specifications or licensing.
 
 | Topic | This build: evidence | Original Made by Z build |

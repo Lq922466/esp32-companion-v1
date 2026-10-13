@@ -1,4 +1,6 @@
 # Wiring / 接线 / Cableado
+
+[中文](zh-CN/WIRING.md) | [Español](es/WIRING.md)
 Disconnect power before wiring. GPIO numbers refer to ESP32-C3 GPIO, not physical header position.
 
 | Device | Signal | GPIO | Power |

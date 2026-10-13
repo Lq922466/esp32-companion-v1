@@ -1,5 +1,7 @@
 # Testing evidence
-Compilation report will be generated in compile-results.json and compile-logs/. Compilation is separate from upload and physical testing. Historical build artifacts do not prove this package passed a fresh compile.
+
+[中文](zh-CN/TESTING.md) | [Español](es/TESTING.md)
+Compilation reports are available in compile-results.json and compile-logs/. Compilation is separate from upload and physical testing. Historical build artifacts do not prove this package passed a fresh compile.
 
 ## Physical test log — all pending in this task
 | Check | Expected behavior | Actual result / evidence |

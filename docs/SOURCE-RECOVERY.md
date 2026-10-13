@@ -1,4 +1,6 @@
 # Source recovery and selection
+
+[中文](zh-CN/SOURCE-RECOVERY.md) | [Español](es/SOURCE-RECOVERY.md)
 The recovery search covered the project workspace, Documents, Desktop, Downloads and user-home indexed file inventory. Arduino library/platform examples and generated build files were excluded from the project-source inventory. No existing standalone IR, touch or servo diagnostic sketch was found in the searched project deliveries; those tests were authored for this package. This is not proof that no other copy exists on another drive or account.
 
 22 recovered project `.ino` files are retained, including duplicate copies and earlier V2 revisions. SOURCE-MANIFEST.json records original delivery-relative locations, archive locations and byte-level SHA256 hashes. Original files were read/copied; no originals or synced `sources/` were modified.

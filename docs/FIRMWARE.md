@@ -1,4 +1,6 @@
 # Firmware / 固件 / Firmware
+
+[中文](zh-CN/FIRMWARE.md) | [Español](es/FIRMWARE.md)
 Complete recovered source: [PaperRobotV2.ino](../firmware/PaperRobotV2/PaperRobotV2.ino). It is preserved unchanged. V1 backup is in firmware/archive/PaperRobotV1; recovered variants are evidence, not alternative files to place together in one sketch directory.
 
 ## Build and upload

@@ -1,4 +1,6 @@
 # Assembly and build record / 制作与组装
+
+[中文](zh-CN/ASSEMBLY.md) | [Español](es/ASSEMBLY.md)
 This is a reconstruction guide based on the specified hardware, not a claimed photo-by-photo record of the owner's work. Confirmed facts: 3mm corrugated cardboard, hand measurement/cutting, existing large breadboard and UBEC. Exact dimensions, fasteners, chronology and photographs are pending.
 
 1. Inventory parts and inspect connections. Test USB/controller first, then OLED, each IR sensor, touch and each servo separately; record results.

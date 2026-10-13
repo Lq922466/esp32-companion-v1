@@ -1,4 +1,6 @@
 # Safety / 安全 / Seguridad
+
+[中文](zh-CN/SAFETY.md) | [Español](es/SAFETY.md)
 - 12V adapter connects only to a UBEC rated for that input. Verify output is 5V with correct polarity before attaching servos.
 - Use USB for the controller in this guide. Do not feed 12V to any logic module, servo or ESP32 pin; do not backfeed USB from another supply.
 - Keep grounds common; check 3.3V logic compatibility, current ratings and insulated connections. Disconnect supplies before rewiring.

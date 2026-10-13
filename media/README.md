@@ -1,5 +1,7 @@
 # Owner-provided real media
 
+[中文](../docs/zh-CN/MEDIA.md) | [Español](../docs/es/MEDIA.md)
+
 [Watch/download the demonstration](https://github.com/Lq922466/esp32-companion-v1/raw/refs/heads/main/media/PaperRobotV2-demo.mp4) · [Preview frame](demo-preview.jpg)
 
 - Supplied by the project owner on 2026-10-13, with explicit permission to upload.

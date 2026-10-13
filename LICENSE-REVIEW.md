@@ -1,4 +1,6 @@
 # License compliance review — pending owner decision
+
+[中文](docs/zh-CN/LICENSE-REVIEW.md) | [Español](docs/es/LICENSE-REVIEW.md)
 No blanket LICENSE is applied in this package. Existing recovered files are retained without claiming new ownership or relicensing them. Public visibility does not itself grant permission to reuse source or assets.
 
 Before publication as an open-source licensed project:
