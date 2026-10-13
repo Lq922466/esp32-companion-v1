@@ -6,7 +6,7 @@ INNNX. 制作，灵感来自 **Made by Z**。V2 仍属于改造项目，不能�
 ## 已在实际源码实现的功能
 六种脸部设计：正常、开心、眨眼、好奇、害羞、睡眠；可爱实心眼睛、平滑表情切换和眨眼。左右红外感应时，眼睛、嘴巴以及脸部装饰整体同步平移，并控制头部 yaw；两侧同时有效则回中。触摸触发开心表情和一次 pitch 点头。舵机有限幅、限速；OLED 失败后会重试。
 
-这是源码核对结果，编译结果见 [TESTING](docs/TESTING.md)。本次整理未进行实物测试；用户表示制作完成，成品照片和演示视频仍待补充。
+这是源码核对结果，编译结果见 [TESTING](docs/TESTING.md)。本次整理未进行实物测试；用户表示制作完成，已提供下方真实演示视频；独立成品照片及逐项实物测试记录仍待补充。
 
 ## 硬件与制作
 ESP32-C3 SuperMini；SSD1306 128×64，0x3C，SDA GPIO0/SCL GPIO1；SG90 两个，Yaw GPIO4/Pitch GPIO5；左右红外 GPIO6/7；TTP223 GPIO10。UBEC 输出 5V 给舵机，所有设备共地。**12V 适配器仅接 UBEC 输入**。保留现有大面包板。
@@ -20,7 +20,11 @@ ESP32-C3 SuperMini；SSD1306 128×64，0x3C，SDA GPIO0/SCL GPIO1；SG90 两个�
 
 ## 真实素材预留
 - 成品照片：待真实照片链接。
-- 运作视频：待真实链接，建议展示待机、左右及双侧感应、触摸点头。
+- [观看／下载真实演示视频](https://github.com/Lq922466/esp32-companion-v1/raw/refs/heads/main/media/PaperRobotV2-demo.mp4)：约 74 秒，由用户提供的 IMG_3257.mov 转换为兼容网页播放的 MP4。
+
+[![从用户视频截取的真实预览画面](media/demo-preview.jpg)](https://github.com/Lq922466/esp32-companion-v1/raw/refs/heads/main/media/PaperRobotV2-demo.mp4)
+
+预览图是视频截图，不是单独拍摄的成品照片。视频不代表所有测试项目均已通过。
 - 制作过程照片、实测尺寸、测试记录：待用户补充。
 
 最新 V2 和 V1 备份原样保留；各历史源码及 SHA256 见 archive，旧公开仓库文件也保留。独立诊断程序中新增部分已标注。本次未擅自为全部源码指定开源许可证。

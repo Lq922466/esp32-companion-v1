@@ -6,7 +6,7 @@ ESP32-C3 cardboard companion robot by INNNX. Inspired by **Made by Z**; this V2 
 ## What the recovered firmware implements
 Six face designs (normal, happy, blink, curious, shy, sleeping), filled capsule eyes, smooth expression transitions and blinking. Left/right IR inputs translate the **entire face**, including eyes and mouth, and command yaw. Both IR inputs active means centered. Touch triggers a happy expression and one pitch nod. Head movement is limited and rate controlled; OLED initialization retries after failure.
 
-These are source-code findings. Compilation results are in [TESTING](docs/TESTING.md); physical operation has not been verified during this packaging task. The owner reports the build is completed; no photo/video test evidence is included yet.
+These are source-code findings. Compilation results are in [TESTING](docs/TESTING.md); physical operation has not been verified during this packaging task. The owner reports the build is completed and has supplied the demonstration video below. This is real build media, not a recorded pass of every test in TESTING.
 
 ## Hardware and getting started
 ESP32-C3 SuperMini; SSD1306 128×64 I2C 0x3C (SDA 0/SCL 1); two SG90 servos (yaw 4/pitch 5); IR left 6/right 7; TTP223 touch 10. External UBEC provides 5V for servos, with common ground. **12V adapter connects only to UBEC input.** Keep the existing large breadboard.
@@ -21,9 +21,13 @@ The shell uses **3mm corrugated cardboard, measured and cut manually against the
 ## Project documentation
 [BOM](docs/BOM.md) · [WIRING](docs/WIRING.md) · [ASSEMBLY](docs/ASSEMBLY.md) · [COMPONENT-TESTS](docs/COMPONENT-TESTS.md) · [FIRMWARE](docs/FIRMWARE.md) · [TROUBLESHOOTING](docs/TROUBLESHOOTING.md) · [SAFETY](docs/SAFETY.md) · [TESTING](docs/TESTING.md) · [Credits and differences](docs/ATTRIBUTION.md) · [History](CHANGELOG.md) · [License review](LICENSE-REVIEW.md)
 
-## Real build media — awaiting owner
+## Real build media
 - Finished robot photo: **pending real image/link**.
-- Demonstration video: **pending real video/link** (idle expressions, left/right/both sensing, touch nod).
+- [Watch/download the owner-provided demonstration video](https://github.com/Lq922466/esp32-companion-v1/raw/refs/heads/main/media/PaperRobotV2-demo.mp4) — approximately 74 seconds; browser-compatible MP4 converted from IMG_3257.mov.
+
+[![Real frame extracted from the demonstration video](media/demo-preview.jpg)](https://github.com/Lq922466/esp32-companion-v1/raw/refs/heads/main/media/PaperRobotV2-demo.mp4)
+
+The preview is a frame from the supplied video, not a separate finished-product photograph.
 - Assembly photos and dimensions: **pending owner evidence**.
 
 No synthetic photographs, invented videos or claimed physical test passes are included.

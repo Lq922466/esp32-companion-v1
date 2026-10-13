@@ -38,3 +38,7 @@ The initial attempts encountered Windows toolchain path length and cache cleanup
 | tests/Touch_TTP223/Touch_TTP223.ino | PASS | Not performed |
 | firmware/PaperRobotV2/PaperRobotV2.ino | PASS | Not performed |
 | firmware/archive/PaperRobotV1/PaperRobotV1.ino | PASS | Not performed |
+
+## Owner demonstration — 2026-10-13
+
+The owner supplied [a real demonstration video](https://github.com/Lq922466/esp32-companion-v1/raw/refs/heads/main/media/PaperRobotV2-demo.mp4), now published as a browser-compatible MP4 with a real preview frame. Full media decoding passed. The recording is build evidence; the exact flashed firmware hash and a per-test physical result log remain unconfirmed. The physical test table above remains pending. See [media provenance](../media/README.md).

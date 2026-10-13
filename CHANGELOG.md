@@ -7,3 +7,5 @@
 No original-creator release history has been reconstructed.
 
 - 2026-10-13 — Owner authorized publishing this package into the existing `Lq922466/esp32-companion-v1` repository. The original OLED sketch remains at its original path; prior documentation is archived and old language entrypoints now link to the current V2 README. Repository name retained.
+
+- 2026-10-13 — Added owner-provided demonstration video, converted full-duration MP4 and real extracted preview; updated English, Chinese and Spanish video links. Original MOV retained unchanged locally.
